@@ -1,0 +1,48 @@
+{"at": "1606706765805544", "channel": "default", "level": "info", "rank": "1", "sycl": "hipSYCL 0.8.1", "build": "release", "pid": "327", "event": "initialized"}
+{"at": "1606706765805625", "channel": "default", "level": "info", "rank": "0", "sycl": "hipSYCL 0.8.1", "build": "release", "pid": "326", "event": "initialized"}
+{"at": "1606706765825463", "channel": "default", "level": "warning", "rank": "1", "message": "No suitable platform found that can provide 2 devices, and CELERITY_DEVICES not set"}
+{"at": "1606706765825628", "channel": "default", "level": "warning", "rank": "0", "message": "No suitable platform found that can provide 2 devices, and CELERITY_DEVICES not set"}
+{"at": "1606706765826055", "channel": "default", "level": "info", "rank": "1", "message": "Using platform 'hipSYCL [SYCL over CUDA/HIP] on NVIDIA CUDA', device 'GeForce GTX 780 Ti' (automatically selected)"}
+{"at": "1606706765826176", "channel": "default", "level": "info", "rank": "0", "message": "Using platform 'hipSYCL [SYCL over CUDA/HIP] on NVIDIA CUDA', device 'GeForce GTX 780 Ti' (automatically selected)"}
+{"at": "1606706765891594", "channel": "default", "level": "trace", "task": "1", "job": "3", "rank": "0", "message": "COMPUTE", "type": "COMPUTE", "event": "START", "cid": "3"}
+{"at": "1606706765891625", "channel": "default", "level": "trace", "task": "1", "job": "3", "rank": "0", "event": "Execute live-pass, submit kernel to SYCL"}
+{"at": "1606706765891716", "channel": "default", "level": "trace", "task": "1", "job": "3", "rank": "0", "event": "Submitted"}
+{"at": "1606706765891778", "channel": "default", "level": "trace", "job": "9", "rank": "0", "message": "AWAIT PUSH of buffer 4 by node 1", "type": "AWAIT_PUSH", "event": "START", "cid": "9"}
+{"at": "1606706765900503", "channel": "default", "level": "trace", "task": "1", "job": "3", "rank": "0", "pollDurationMin": "0", "pollDurationAvg": "0", "pollDurationMax": "108", "executionTime": "8858", "pollSamples": "6695", "event": "STOP"}
+{"at": "1606706765900540", "channel": "default", "level": "trace", "job": "10", "rank": "0", "message": "PUSH buffer 4 to node 1", "type": "PUSH", "event": "START", "cid": "10"}
+{"at": "1606706765900551", "channel": "default", "level": "trace", "job": "10", "rank": "0", "event": "Submit buffer to BTM"}
+{"at": "1606706765900693", "channel": "default", "level": "trace", "rank": "0", "event": "Buffer data ready to be sent", "job": "10"}
+{"at": "1606706765900716", "channel": "default", "level": "trace", "job": "10", "rank": "0", "event": "Buffer submitted to BTM"}
+{"at": "1606706765900753", "channel": "default", "level": "trace", "job": "10", "rank": "0", "pollDurationMin": "0", "pollDurationAvg": "87", "pollDurationMax": "174", "executionTime": "184", "pollSamples": "2", "event": "STOP"}
+{"at": "1606706765910465", "channel": "default", "level": "trace", "rank": "1", "message": "Receiving incoming data of size 256 from 0"}
+{"at": "1606706765910512", "channel": "default", "level": "trace", "task": "1", "job": "4", "rank": "1", "message": "COMPUTE", "type": "COMPUTE", "event": "START", "cid": "4"}
+{"at": "1606706765914253", "channel": "default", "level": "trace", "task": "1", "job": "4", "rank": "1", "event": "Execute live-pass, submit kernel to SYCL"}
+{"at": "1606706765914353", "channel": "default", "level": "trace", "task": "1", "job": "4", "rank": "1", "event": "Submitted"}
+{"at": "1606706765914449", "channel": "default", "level": "trace", "job": "11", "rank": "1", "message": "AWAIT PUSH of buffer 4 by node 0", "type": "AWAIT_PUSH", "event": "START", "cid": "11"}
+{"at": "1606706765923262", "channel": "default", "level": "trace", "job": "11", "rank": "1", "pollDurationMin": "0", "pollDurationAvg": "8774", "pollDurationMax": "8774", "executionTime": "8774", "pollSamples": "1", "event": "STOP"}
+{"at": "1606706765923353", "channel": "default", "level": "trace", "task": "1", "job": "4", "rank": "1", "pollDurationMin": "0", "pollDurationAvg": "961", "pollDurationMax": "3845", "executionTime": "12814", "pollSamples": "4", "event": "STOP"}
+{"at": "1606706765923389", "channel": "default", "level": "trace", "job": "8", "rank": "1", "message": "PUSH buffer 4 to node 0", "type": "PUSH", "event": "START", "cid": "8"}
+{"at": "1606706765923400", "channel": "default", "level": "trace", "job": "8", "rank": "1", "event": "Submit buffer to BTM"}
+{"at": "1606706765923527", "channel": "default", "level": "trace", "rank": "1", "event": "Buffer data ready to be sent", "job": "8"}
+{"at": "1606706765923550", "channel": "default", "level": "trace", "job": "8", "rank": "1", "event": "Buffer submitted to BTM"}
+{"at": "1606706765923564", "channel": "default", "level": "trace", "rank": "0", "message": "Receiving incoming data of size 256 from 1"}
+{"at": "1606706765923571", "channel": "default", "level": "trace", "task": "2", "job": "7", "rank": "1", "message": "COMPUTE", "type": "COMPUTE", "event": "START", "cid": "7"}
+{"at": "1606706765923580", "channel": "default", "level": "trace", "task": "2", "job": "7", "rank": "1", "event": "Execute live-pass, submit kernel to SYCL"}
+{"at": "1606706765923720", "channel": "default", "level": "trace", "job": "9", "rank": "0", "pollDurationMin": "0", "pollDurationAvg": "0", "pollDurationMax": "1", "executionTime": "31919", "pollSamples": "57731", "event": "STOP"}
+{"at": "1606706765923731", "channel": "default", "level": "trace", "task": "2", "job": "6", "rank": "0", "message": "COMPUTE", "type": "COMPUTE", "event": "START", "cid": "6"}
+{"at": "1606706765923735", "channel": "default", "level": "trace", "task": "2", "job": "6", "rank": "0", "event": "Execute live-pass, submit kernel to SYCL"}
+{"at": "1606706765923700", "channel": "default", "level": "trace", "task": "2", "job": "7", "rank": "1", "event": "Submitted"}
+{"at": "1606706765923760", "channel": "default", "level": "trace", "job": "8", "rank": "1", "pollDurationMin": "0", "pollDurationAvg": "80", "pollDurationMax": "160", "executionTime": "330", "pollSamples": "2", "event": "STOP"}
+{"at": "1606706765923788", "channel": "default", "level": "trace", "task": "2", "job": "6", "rank": "0", "event": "Submitted"}
+{"at": "1606706765940845", "channel": "default", "level": "trace", "task": "2", "job": "6", "rank": "0", "pollDurationMin": "0", "pollDurationAvg": "0", "pollDurationMax": "57", "executionTime": "17101", "pollSamples": "40286", "event": "STOP"}
+{"at": "1606706765940897", "channel": "default", "level": "trace", "task": "2", "job": "7", "rank": "1", "pollDurationMin": "0", "pollDurationAvg": "0", "pollDurationMax": "139", "executionTime": "17270", "pollSamples": "15998", "event": "STOP"}
+{"at": "1606706765941028", "channel": "default", "level": "trace", "task": "3", "job": "12", "rank": "0", "message": "MASTER ACCESS", "type": "MASTER_ACCESS", "event": "START", "cid": "12"}
+{"at": "1606706765941056", "channel": "default", "level": "trace", "task": "3", "job": "12", "rank": "0", "pollDurationMin": "0", "pollDurationAvg": "13", "pollDurationMax": "13", "executionTime": "13", "pollSamples": "1", "event": "STOP"}
+{"at": "1606706765941088", "channel": "default", "level": "trace", "rank": "0", "initialIdleTime": "85936"}
+{"at": "1606706765941097", "channel": "default", "level": "trace", "rank": "0", "computeIdleTime": "23313"}
+{"at": "1606706765941101", "channel": "default", "level": "trace", "rank": "0", "starvationTime": "169"}
+{"at": "1606706765941124", "channel": "default", "level": "trace", "rank": "1", "initialIdleTime": "104859"}
+{"at": "1606706765941131", "channel": "default", "level": "trace", "rank": "1", "computeIdleTime": "4021"}
+{"at": "1606706765941136", "channel": "graph", "level": "info", "rank": "0", "data": "digraph G { 3[ label=\"Task 3 (master-access)\"];2[ label=\"Task 2 (Mvt2)\"];1 -> 2;1[ label=\"Task 1 (Mvt1)\"];}", "name": "TaskGraph"}
+{"at": "1606706765941135", "channel": "default", "level": "trace", "rank": "1", "starvationTime": "0"}
+{"at": "1606706765941226", "channel": "graph", "level": "info", "rank": "0", "data": "digraph G { subgraph cluster_1 { label=\"Task 1\"; color=gray;4[ shape=box fontcolor=crimson label=\"[4] Node 1:\nCOMPUTE {[[64,0,0] - [128,1,1]]}\nread 0 {[[64,0,0] - [128,128,1]]}\nread 3 {[[0,0,0] - [128,1,1]]}\nread_write 4 {[[64,0,0] - [128,1,1]]}\n\"];3[ shape=box fontcolor=black label=\"[3] Node 0:\nCOMPUTE {[[0,0,0] - [64,1,1]]}\nread 0 {[[0,0,0] - [64,128,1]]}\nread 3 {[[0,0,0] - [128,1,1]]}\nread_write 4 {[[0,0,0] - [64,1,1]]}\n\"];}subgraph cluster_2 { label=\"Task 2\"; color=gray;7[ shape=box fontcolor=crimson label=\"[7] Node 1:\nCOMPUTE {[[64,0,0] - [128,1,1]]}\nread 0 {[[64,0,0] - [128,128,1]]}\nread 4 {[[0,0,0] - [128,1,1]]}\nread_write 2 {[[64,0,0] - [128,1,1]]}\n\"];6[ shape=box fontcolor=black label=\"[6] Node 0:\nCOMPUTE {[[0,0,0] - [64,1,1]]}\nread 0 {[[0,0,0] - [64,128,1]]}\nread 4 {[[0,0,0] - [128,1,1]]}\nread_write 2 {[[0,0,0] - [64,1,1]]}\n\"];}subgraph cluster_3 { label=\"Task 3\"; color=gray;12[ fontcolor=black label=\"[12] Node 0:\nMASTER ACCESS\n\"];}11[ fontcolor=crimson label=\"[11] Node 1:\nAWAIT PUSH 4 from 0\n {[[0,0,0] - [64,1,1]]}\"];10 -> 11 [style=dashed color=gray40];10[ fontcolor=black label=\"[10] Node 0:\nPUSH 4 to 1\n {[[0,0,0] - [64,1,1]]}\"];3 -> 10;9[ fontcolor=black label=\"[9] Node 0:\nAWAIT PUSH 4 from 1\n {[[64,0,0] - [128,1,1]]}\"];8 -> 9 [style=dashed color=gray40];8[ fontcolor=crimson label=\"[8] Node 1:\nPUSH 4 to 0\n {[[64,0,0] - [128,1,1]]}\"];4 -> 8;11 -> 7;4 -> 7;3 -> 6;9 -> 6;}", "name": "CommandGraph"}

@@ -1,0 +1,32 @@
+{"at": "1606706770857266", "channel": "default", "level": "info", "rank": "1", "sycl": "hipSYCL 0.8.1", "build": "release", "pid": "357", "event": "initialized"}
+{"at": "1606706770857345", "channel": "default", "level": "info", "rank": "0", "sycl": "hipSYCL 0.8.1", "build": "release", "pid": "356", "event": "initialized"}
+{"at": "1606706770871951", "channel": "default", "level": "warning", "rank": "1", "message": "No suitable platform found that can provide 2 devices, and CELERITY_DEVICES not set"}
+{"at": "1606706770872092", "channel": "default", "level": "info", "rank": "1", "message": "Using platform 'hipSYCL [SYCL over CUDA/HIP] on NVIDIA CUDA', device 'GeForce GTX 780 Ti' (automatically selected)"}
+{"at": "1606706770872969", "channel": "default", "level": "warning", "rank": "0", "message": "No suitable platform found that can provide 2 devices, and CELERITY_DEVICES not set"}
+{"at": "1606706770873680", "channel": "default", "level": "info", "rank": "0", "message": "Using platform 'hipSYCL [SYCL over CUDA/HIP] on NVIDIA CUDA', device 'GeForce GTX 780 Ti' (automatically selected)"}
+{"at": "1606706770956800", "channel": "default", "level": "trace", "task": "1", "job": "4", "rank": "1", "message": "COMPUTE", "type": "COMPUTE", "event": "START", "cid": "4"}
+{"at": "1606706770956809", "channel": "default", "level": "trace", "task": "1", "job": "4", "rank": "1", "event": "Execute live-pass, submit kernel to SYCL"}
+{"at": "1606706770956842", "channel": "default", "level": "trace", "task": "1", "job": "4", "rank": "1", "event": "Submitted"}
+{"at": "1606706770956784", "channel": "default", "level": "trace", "task": "1", "job": "3", "rank": "0", "message": "COMPUTE", "type": "COMPUTE", "event": "START", "cid": "3"}
+{"at": "1606706770956800", "channel": "default", "level": "trace", "task": "1", "job": "3", "rank": "0", "event": "Execute live-pass, submit kernel to SYCL"}
+{"at": "1606706770956836", "channel": "default", "level": "trace", "task": "1", "job": "3", "rank": "0", "event": "Submitted"}
+{"at": "1606706770974039", "channel": "default", "level": "trace", "task": "1", "job": "4", "rank": "1", "pollDurationMin": "0", "pollDurationAvg": "0", "pollDurationMax": "38", "executionTime": "17221", "pollSamples": "40281", "event": "STOP"}
+{"at": "1606706770974053", "channel": "default", "level": "trace", "task": "2", "job": "7", "rank": "1", "message": "COMPUTE", "type": "COMPUTE", "event": "START", "cid": "7"}
+{"at": "1606706770974058", "channel": "default", "level": "trace", "task": "2", "job": "7", "rank": "1", "event": "Execute live-pass, submit kernel to SYCL"}
+{"at": "1606706770974079", "channel": "default", "level": "trace", "task": "1", "job": "3", "rank": "0", "pollDurationMin": "0", "pollDurationAvg": "0", "pollDurationMax": "44", "executionTime": "17272", "pollSamples": "40276", "event": "STOP"}
+{"at": "1606706770974089", "channel": "default", "level": "trace", "task": "2", "job": "6", "rank": "0", "message": "COMPUTE", "type": "COMPUTE", "event": "START", "cid": "6"}
+{"at": "1606706770974094", "channel": "default", "level": "trace", "task": "2", "job": "6", "rank": "0", "event": "Execute live-pass, submit kernel to SYCL"}
+{"at": "1606706770974096", "channel": "default", "level": "trace", "task": "2", "job": "7", "rank": "1", "event": "Submitted"}
+{"at": "1606706770974116", "channel": "default", "level": "trace", "task": "2", "job": "6", "rank": "0", "event": "Submitted"}
+{"at": "1606706770991271", "channel": "default", "level": "trace", "task": "2", "job": "7", "rank": "1", "pollDurationMin": "0", "pollDurationAvg": "0", "pollDurationMax": "43", "executionTime": "17204", "pollSamples": "39935", "event": "STOP"}
+{"at": "1606706770991327", "channel": "default", "level": "trace", "task": "2", "job": "6", "rank": "0", "pollDurationMin": "0", "pollDurationAvg": "0", "pollDurationMax": "26", "executionTime": "17226", "pollSamples": "40163", "event": "STOP"}
+{"at": "1606706770991387", "channel": "default", "level": "trace", "task": "3", "job": "8", "rank": "0", "message": "MASTER ACCESS", "type": "MASTER_ACCESS", "event": "START", "cid": "8"}
+{"at": "1606706770991412", "channel": "default", "level": "trace", "task": "3", "job": "8", "rank": "0", "pollDurationMin": "0", "pollDurationAvg": "11", "pollDurationMax": "11", "executionTime": "11", "pollSamples": "1", "event": "STOP"}
+{"at": "1606706770991453", "channel": "default", "level": "trace", "rank": "0", "initialIdleTime": "99448"}
+{"at": "1606706770991463", "channel": "default", "level": "trace", "rank": "0", "computeIdleTime": "100"}
+{"at": "1606706770991467", "channel": "default", "level": "trace", "rank": "0", "starvationTime": "49"}
+{"at": "1606706770991453", "channel": "default", "level": "trace", "rank": "1", "initialIdleTime": "99512"}
+{"at": "1606706770991463", "channel": "default", "level": "trace", "rank": "1", "computeIdleTime": "88"}
+{"at": "1606706770991467", "channel": "default", "level": "trace", "rank": "1", "starvationTime": "0"}
+{"at": "1606706770991502", "channel": "graph", "level": "info", "rank": "0", "data": "digraph G { 3[ label=\"Task 3 (master-access)\"];2[ label=\"Task 2 (Mvt2)\"];1 -> 2;1[ label=\"Task 1 (Mvt1)\"];}", "name": "TaskGraph"}
+{"at": "1606706770991567", "channel": "graph", "level": "info", "rank": "0", "data": "digraph G { subgraph cluster_1 { label=\"Task 1\"; color=gray;4[ shape=box fontcolor=crimson label=\"[4] Node 1:\nCOMPUTE {[[64,0,0] - [128,1,1]]}\nread 0 {[[64,0,0] - [128,128,1]]}\nread 3 {[[0,0,0] - [128,1,1]]}\nread_write 4 {[[64,0,0] - [128,1,1]]}\n\"];3[ shape=box fontcolor=black label=\"[3] Node 0:\nCOMPUTE {[[0,0,0] - [64,1,1]]}\nread 0 {[[0,0,0] - [64,128,1]]}\nread 3 {[[0,0,0] - [128,1,1]]}\nread_write 4 {[[0,0,0] - [64,1,1]]}\n\"];}subgraph cluster_2 { label=\"Task 2\"; color=gray;7[ shape=box fontcolor=crimson label=\"[7] Node 1:\nCOMPUTE {[[64,0,0] - [128,1,1]]}\nread 4 {[[64,0,0] - [128,1,1]]}\nread 0 {[[0,0,0] - [128,1,1]]}\nread_write 2 {[[64,0,0] - [128,1,1]]}\n\"];6[ shape=box fontcolor=black label=\"[6] Node 0:\nCOMPUTE {[[0,0,0] - [64,1,1]]}\nread 4 {[[0,0,0] - [64,1,1]]}\nread 0 {[[0,0,0] - [128,1,1]]}\nread_write 2 {[[0,0,0] - [64,1,1]]}\n\"];}subgraph cluster_3 { label=\"Task 3\"; color=gray;8[ fontcolor=black label=\"[8] Node 0:\nMASTER ACCESS\n\"];}4 -> 7;3 -> 6;}", "name": "CommandGraph"}

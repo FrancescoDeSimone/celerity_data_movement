@@ -1,0 +1,6 @@
+[2020-11-30 03:21:04.996] [default] [info] [rank = 1] sycl = hipSYCL 0.8.1, build = release, pid = 41, event = initialized
+[2020-11-30 03:21:05.010] [default] [warning] [rank = 1] No suitable platform found that can provide 2 devices, and CELERITY_DEVICES not set
+[2020-11-30 03:21:05.010] [default] [info] [rank = 1] Using platform 'hipSYCL [SYCL over CUDA/HIP] on NVIDIA CUDA', device 'GeForce GTX 780 Ti' (automatically selected)
+[2020-11-30 03:21:05.015] [default] [info] [rank = 0] sycl = hipSYCL 0.8.1, build = release, pid = 40, event = initialized
+[2020-11-30 03:21:05.031] [default] [warning] [rank = 0] No suitable platform found that can provide 2 devices, and CELERITY_DEVICES not set
+[2020-11-30 03:21:05.032] [default] [info] [rank = 0] Using platform 'hipSYCL [SYCL over CUDA/HIP] on NVIDIA CUDA', device 'GeForce GTX 780 Ti' (automatically selected)
